@@ -41,7 +41,7 @@ def search_files(start_directory, search_word="*"):
 
 def display_files(file_list):
     if not file_list:
-        print("No files found.")
+        print("Any file(s) found.")
     else:
         print(f"Found {len(file_list)} file(s):")
         for file in file_list:
