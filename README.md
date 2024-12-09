@@ -1,5 +1,10 @@
 This is a search file Python script. \
 To use it just a simple download to your home directory. \
+```
+git clone https://github.com/bublik77/final_task.git
+cd final_task
+```
+
 There are two ways to run 
 1. run without arguments and set it to answer the question in the running script
     ```
