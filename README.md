@@ -11,7 +11,7 @@ There are two ways to run
     python3 search_file.py
     .....
     Enter word to search(*.txt or file_name): some_file
-    Enter in which directory to search(by default: /home/user): we can leave empty \for default of set full path
+    Enter in which directory to search(by default: /home/user): we can leave empty for default or set full path
     ``` 
 2. or run with arguments:
     ```
