@@ -1,5 +1,5 @@
 This is a search file Python script. \
-To use it just a simple download to your home directory.
+To use it just a simple download to your home directory. \
 There are two ways to run 
 1. run without arguments and set it to answer the question in the running script
     ```
