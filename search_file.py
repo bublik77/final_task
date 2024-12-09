@@ -49,16 +49,16 @@ def display_files(file_list):
 
 def main():
     os_type = get_os_type()
-    print(f"Operating System Detected: {os_type}")
+    print(f"Operating System is: {os_type}")
 
     if os_type == "Linux":
         check_sudo()
 
     if len(sys.argv) < 2:
         default_directory = get_default_directory(os_type)
-        print(f"Default directory for your OS: {default_directory}")
+        print(f"Default directory: {default_directory}")
         search_word = input("Enter word to search(*.txt or file_name): ")
-        start_directory = input(f"Enter in which directory to search(by default: {default_directory}): ")
+        start_directory = input(f"Enter in which directory to search(by default: {default_directory}): ") or default_directory
     elif len(sys.argv) > 0 and len(sys.argv) < 2:
         print("You should use search_file.py \"directory\" file_name")
         sys.exit()
